@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+
+
+<html lang="en">
+    
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Parallax Effect | Pure CSS</title>
+        <link rel="stylesheet" href="kontaktnavigation.css" />
+        <script src="jquery-3.1.1.min.js"></script>
+    
+    					<script>
+        $(document).ready(function () {
+
+
+            $('#linkKontakt').click(function () { 
+                $('body').load('./index.html');
+            });
+
+			$('#linkKontakt').click(function () { 
+                $('#target').load('./kontaktLienz.html');
+            });
+
+			$('#linkLeistung').click(function () { 
+                $('#target').load('./leistung.html');
+            });
+
+			$('#linkTeam').click(function () { 
+                $('#target').load('./team.html');
+            });
+			
+			$('#linkImpressum').click(function () { 
+                $('#target').load('./impressum.html');
+            });
+			$('#jobs').click(function () { 
+                $('#target').load('./jobs.html');
+            });
+
+        });
+
+					</script>
+</head>
+    
+    
+<body>
+
+ <!--________Navigation Frame_______________________-->	
+  
+<div class="header">
+    <ul class="navigation">
+      <li id="linkKontakt">Kontakt</li>
+      <li id="linkLeistung">Leistung</li>
+      <li id="linkTeam">Team</li>
+    </ul> 
+</div>  
+    
+<!--________HOME FRAME______________________________-->	  
+<main id="target">
+        <div class="bild1">             
+            <div class = "heading">
+                <h1>Tragwerksplanung&nbsp;&nbsp;Tagger</h1>             
+                <h2>Ziviltechniker GmbH Bauingenierwesen</h2>                           
+            </div>
+            <!--__
+            <di class="kontakt">          
+            </div>
+            <div class="atSign">
+                Kontakt
+            </div>
+        ____-->
+             <!--__
+            <div class="leftArrow"></div>
+            <div class="rightArrow"></div>
+            -->
+            <div class="streifen"></div>
+            <div class="kreis"></div>
+            <div class="kreisKlein"></div>
+  
+        </div>
+    
+    <section >
+
+        <div class="rahmenKontakt">
+            <div class="adler">
+            </div>
+            <div class="kontakt">
+                <div class="firma">
+                        <h1>Tragwerksplanung  Tagger</h1>
+                        <h2> Ziviltechniker GmbH Bauingenierwesen </h2>
+                </div>
+                <div class="ort">
+                    <p class="adresse">Mariatrosterstraße 299</p>
+                    <p class="stadt">A-8044 Graz</p>
+                </div>
+                
+                <div class="ort">
+                    <p class="adresse">Schweizergasse 37</p>
+                    <p class="stadt">A-9900 Lienz</p>
+                </div>
+
+                <p>
+                  <a href="tel:004348527355510">Tel.: +43 (0)4852/73555</a><br />
+                    Fax: +43 (0)4852 73555 - 20<br />
+                     <a href="mailto:office@tagger.at">mail: office@tagger.at</a><br />
+                </p>
+  
+            </div>
+        </div>
+        
+<footer>
+    <div class="impressum" id="linkImpressum">
+        <p>§</p>
+    </div>
+
+    <div class="jobs" id="jobs">
+        <p>Stellenangebote</p>
+    </div>											
+</footer>
+    
+    </section>
+											
+</main>
+
+
+
+  
+    
+<!--__DI STEPHAN TAGGER____________________________________-->	
+    
+
+
+ </body>
+
+
+
+
+					

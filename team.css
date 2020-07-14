@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body, html {
+    background-color: #e9e9e9;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #46484c;
+    text-align: center;
+}
+
+.abstandOben
+{
+    height: 60px
+}
+a{
+    color: #000208;
+    text-decoration: none;
+    font-weight: 400;  
+}
+
+a:hover {
+  background-color: lightgray;
+}
+
+.teamMemberWrapper{  
+    border: 1px solid #000208;
+    height: 250px;
+    width: 600px;
+    margin: 20px auto;   
+}
+
+.teamLocation{
+    
+    text-align: center;
+    margin: 20px auto; 
+}
+
+.teamLocation h3{
+    color: #1b3652;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 200%;
+    
+}
+
+.imgTeamMember img{
+    height:250px;
+    float: left;
+}
+
+.infoTeamMember {   
+float: right;
+height: 600px;
+width: 400px;
+height: auto;
+}
+

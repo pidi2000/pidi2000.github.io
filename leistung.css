@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/*Edge - works to 41.16299.402.0*/
+@supports (-ms-ime-align:auto) 
+{
+    html{
+        overflow: hidden;
+        height: 100%;       
+    }
+    body{
+        overflow: auto;
+        height: 100%;
+        position: relative;
+    }
+}
+
+/*Ie 10/11*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) 
+{
+    html{
+        overflow: hidden;
+        height: 100%;    
+    }
+    body{
+        overflow: auto;
+        height: 100%;
+    }
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #000208;
+    text-align: center;
+    background-color: white;
+}
+
+
+/*
+.heading
+{
+    position: absolute;
+    /*
+    color: #1b3652;
+    */
+    color: #1b3652;
+    font-size: 500%;
+    top:5%;
+    width: 100%;
+    text-transform: uppercase;
+    opacity: 0.9;
+    text-align: center;  
+}
+
+*/
+
+ul li {
+    
+
+    
+}
+
+.heading
+{
+    
+    position: absolute;
+    /*
+    color: #1b3652;
+    */
+    color: #1b3652;
+    font-size: 200%;
+    top:100px;
+    right:100px;
+    width: 100%;
+    text-transform: uppercase;
+    opacity: 0.9;
+    text-align: right;  
+}
+
+
+
+section{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #f3f3f3;
+    overflow: auto;
+    
+    
+}
+
+h1.headerInfoText{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 180%;
+    font-weight: 400;
+    padding-top: 20px;
+    color: #46484c;
+    margin: 0;   
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+    /*
+    
+    @keyframes blink{
+    50% { opacity: 0.2}
+    80% {opacity: 1}
+    }
+
+    */
+
+
+
+.triangle-up
+{
+   
+  border: 5px solid #1b3652;
+  border-width: 0 0 5px 5px;
+  width: 80px;
+  height: 80px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+    
+    
+    position: absolute;
+    bottom: 25px;
+    margin-left: calc( 50% - 55px );
+    /*
+    animation: blink 3s infinite linear;
+    */
+   
+}
+
+
+
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+    font-weight: 600;
+    padding-top: 20px;
+    color: #46484c;
+    margin: 0;   
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.zweiSpalten {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    float: left;
+    width: 42%;
+    padding: 0 4%;
+    text-align: left; 
+    line-height: 160%;
+    font-size: 105%;
+}
+
+.infoImg
+{
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    position:absolute;
+    text-align:right;
+    bottom: 5px;
+    right: 5px;
+   
+}
+
+.bild1 {  
+    background: url('imgLeistung/01b.jpg');
+    min-height: 100%;   
+}
+
+.bild2 {    
+    background: url('imgLeistung/02.jpg');
+     min-height: 100%;   
+}
+
+.bild3 {   
+    background: url('imgLeistung/03.jpg');
+     min-height: 100%;   
+}
+
+
+.bild4 {   
+    background: url('imgLeistung/04.jpg');
+    min-height: 100%;    
+}
+
+.bild5 {   
+    background: url('imgLeistung/05.jpg');
+    min-height: 100%;    
+}
+
+.bild6 {   
+    background: url('imgLeistung/06.jpg');
+    min-height: 100%;    
+}
+
+
+.bild1, .bild2, .bild3, .bild4, .bild5, .bild6{
+
+    position: relative;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
